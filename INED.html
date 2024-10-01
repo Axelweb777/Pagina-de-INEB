@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INEB-D</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1em;
+        }
+        .gallery img {
+            margin: 5px;
+            width: 200px;
+            height: 150px;
+        }
+        .comments {
+            padding: 1em;
+        }
+        .social-links {
+            text-align: center;
+            padding: 1em;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>INEB-D
+            Instituto de Educacion Basica y Diversificada Sergio Leonel Celis Navas
+        </h1>
+    </header>
+    <nav>
+        <a href="#home">Inicio</a>
+        <a href="#about">Acerca de</a>
+        
+        <a href="#gallery">Galería</a>
+        <a href="#comments">Publicaciones y Comentarios</a>
+    </nav>
+    
+            <section id="about">
+    <h2>Acerca de</h2>
+    <p>INEB-D es una institución educativa dedicada a brindar una educación de calidad para los estudiantes, su objetivo es fomentar el desarrollo integral de cada alumno preparándolos para enfrentar los desafíos que puedan encontrar en un futuro.</p>
+    <p>En INEB-D se valora la excelencia académica, la innovación y el compromiso de los eatudiantes, con un equipo de docentes altamente calificado y comprometido con el éxito de cada estudiante.</p>
+    <p>Que esperas ven y unete a nosotros y sé parte de una comunidad educativa que se esfuerza por alcanzar la excelencia en todos los aspectos.</p>
+</section>
+
+   <section id="gallery">
+    <h2>Galería</h2>
+    <div class="gallery">
+        <img src="Imagenes html/Logo epico ineb.png">
+        <img src="Imagenes html/Perlita.gif">
+        <img src="imagenes html/Ined3.png">
+        <img src="imagenes html/Gim.gif">
+        <img src="imagenes html/Cancha.gif">
+        <img src="imagenes html/Carre.gif">
+    </section>
+    
+    <section id="comments">
+    <h2>Publicaciones y Comentarios</h2>
+    <form>
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="comment">Comentario:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
+    </section>
+    <footer class="social-links">
+        <h2>Síguenos en</h2>
+        <a href="https://www.facebook.com/profile.php?id=100063559627992&mibextid=ZbWKwL">Facebook</a>
+    </footer>
+</body>
+</html>
+
