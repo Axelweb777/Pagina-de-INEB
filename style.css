@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#about, #gallery, #comments {
+    padding: 2em;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+#about h2, #gallery h2, #comments h2, #comments h3 {
+    color: #4CAF50;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+.gallery img {
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+}
+#comments form {
+    margin-bottom: 2em;
+}
+#comments input[type="text"], #comments textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+#comments input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+#comments .comments-section {
+    text-align: left;
+    margin-top: 2em;
+}
+#comments .comments-section p {
+    background-color: #e9e9e9;
+    padding: 1em;
+    border-radius: 5px;
+    margin: 0.5em 0;
+}
+.social-links {
+    text-align: center;
+    padding: 1em;
+}
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+
